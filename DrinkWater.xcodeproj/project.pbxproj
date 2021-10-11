@@ -13,6 +13,8 @@
 		045CD6342711840200618BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045CD6322711840200618BC9 /* Main.storyboard */; };
 		045CD6362711840600618BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045CD6352711840600618BC9 /* Assets.xcassets */; };
 		045CD6392711840600618BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045CD6372711840600618BC9 /* LaunchScreen.storyboard */; };
+		045CD6412711844300618BC9 /* DrinkWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CD6402711844300618BC9 /* DrinkWaterViewController.swift */; };
+		045CD6452711904700618BC9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CD6442711904700618BC9 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		045CD6352711840600618BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045CD6382711840600618BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045CD63A2711840600618BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045CD6402711844300618BC9 /* DrinkWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterViewController.swift; sourceTree = "<group>"; };
+		045CD6442711904700618BC9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				045CD62E2711840200618BC9 /* SceneDelegate.swift */,
 				045CD6302711840200618BC9 /* ViewController.swift */,
 				045CD6322711840200618BC9 /* Main.storyboard */,
+				045CD6442711904700618BC9 /* ProfileViewController.swift */,
+				045CD6402711844300618BC9 /* DrinkWaterViewController.swift */,
 				045CD6352711840600618BC9 /* Assets.xcassets */,
 				045CD6372711840600618BC9 /* LaunchScreen.storyboard */,
 				045CD63A2711840600618BC9 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				045CD6312711840200618BC9 /* ViewController.swift in Sources */,
 				045CD62D2711840200618BC9 /* AppDelegate.swift in Sources */,
+				045CD6452711904700618BC9 /* ProfileViewController.swift in Sources */,
 				045CD62F2711840200618BC9 /* SceneDelegate.swift in Sources */,
+				045CD6412711844300618BC9 /* DrinkWaterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
